@@ -17,6 +17,10 @@
 
   <body>
 
+  	<div class="deruino">
+  		Сайт разработан при помощи DERUINO
+  	</div>
+
     <div class="modalblock add_name">
       <div class="modal_container">
         <div class="close_modal"><img src="css/images/close.png"></div>
