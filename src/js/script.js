@@ -1,3 +1,5 @@
+import * as $ from 'jquery';
+
 $(document).ready(function () {
 	$('.close_modal').click(function () {
 		$('.modalblock').fadeOut(300);
@@ -9,9 +11,9 @@ $(document).ready(function () {
 
 	$('.open_table').click(function () {
 		$('.add_table').fadeIn();
-	})
+	});
 
 	$('.open_name').click(function () {
 		$('.add_name').fadeIn();
-	})
+	});
 });

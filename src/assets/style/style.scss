@@ -1,18 +1,10 @@
+@import '~bootstrap/scss/bootstrap';
+@import '../fonts/fonts.css';
+
 * {
 	padding: 0;
 	margin: 0;
 }
-
-@font-face {
-	font-family: OpenSans;
-	src: url('font/opensans.ttf');
-}
-
-@font-face {
-	font-family: OpenSansSemiBold;
-	src: url('font/opensanssemibold.ttf');
-}
-
 
 .mycol {
 	padding-left: 0;
@@ -22,16 +14,6 @@
 .myrow {
 	margin-left: 0;
 	margin-right: 0;
-}
-
-.deruino {
-	color: white;
-	font-size: calc(1rem + 2vw);
-	z-index: 9999;
-	position: fixed;
-	top: 5%;
-	left: 5%;
-	font-weight: bolder;
 }
 
 .myborder {
@@ -624,7 +606,6 @@
 
 	.tableico {
 		margin-top: -21px;
-		border-top: ;
 		margin-bottom: 15px;
 		width: 100% !important;
 	}
